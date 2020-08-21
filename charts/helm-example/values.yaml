@@ -4,9 +4,9 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: r.cfcr.io/anna-codefresh/helm-sample-app-go
+  repository: r.cfcr.io/thejaything/python-flask-sample-app
 service:
-  name: my-example-helm-app
+  name: python-flask-sample-app
   type: LoadBalancer
   externalPort: 80
   internalPort: 8080
